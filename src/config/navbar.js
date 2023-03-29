@@ -1,13 +1,13 @@
 module.exports = {
     title: 'Prieto Blog',
     logo: {
-        alt: 'My Site Logo',
+        alt: 'Prieto Blog Logo',
         src: 'img/logo.svg',
     },
     items: [
         {
             to: '/', 
-            label: 'Home', 
+            label: 'Início', 
             position: 'left'
         },
         {

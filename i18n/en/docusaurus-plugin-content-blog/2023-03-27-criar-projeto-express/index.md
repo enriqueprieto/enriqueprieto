@@ -1,6 +1,6 @@
 ---
 authors: enriqueprieto
-slug: create-express-project
+slug: criar-projeto-express
 ---
 
 # Create an express project
@@ -52,7 +52,7 @@ Answner all the npm prompt questions and then our `package.json` will created an
 
 Now we can use the npm to install packages in our project, in this case we will install the `express.js`.
 
-### Install express and dependencies {#project-setup-install-express-dependencies}
+### Install express {#project-setup-install-express}
 
 Inside our project let's install the express.
 
@@ -60,4 +60,58 @@ Inside our project let's install the express.
 npm install express --save
 ```
 
+Now we can configure our server and application express.
 
+### Create application
+
+Now we can create our application express. Let's create him in our `src` folder.
+```
+mkdir src
+
+nano app.js
+```
+
+In our `app.js` we can define routes and responses by that route. Example:
+
+```js
+// ~/src/app.js
+
+const express = require('express');
+
+const app = express();
+
+app.get('/', function (req, res) {
+    return res.send("<h1>Hello World</h1>");
+});
+
+module.exports = app;
+
+```
+
+### Create server
+
+If you follow all steps above, you are already to create the `server` to our project. In your root folder, create a `server.js` file. He look's like that:
+
+```js
+const app = require('./src/app.js');
+const http = requite(http);
+
+const server = http.createServer(app);
+
+server.listen(3000, function () {
+    console.log('Listen from 3000 port.');
+})
+
+```
+
+Now we can run the command in our terminal.
+
+```
+node server.js
+```
+
+Then, the prompt message will displayed for you and you can access the [localhost:3000](localhost:3000).
+
+## Conclusion
+
+Now we can save this project in our Github and use like template for new jobs required node.js and express. That's sounds good for productivitie.
