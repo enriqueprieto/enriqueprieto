@@ -13,11 +13,11 @@ Olá pessoal, neste artigo eu vou criar um simples projeto express e compartilha
 
 Em minhas palavras, o `express.js` é um framework onde você pode criar servidores com requisições HTTP como `GET`, `POST`, `PUT` e `DELETE` usando `node.js`. Se você quer saber mais sobre o `express.js` (clique aqui)[https://expressjs.com] para visitar o site, lá você irá encontrar todos os recursos do framework.
 
-## Project Setup {#project-setup}
+## Configurar o projeto {#project-setup}
 
-### Start {#project-setup-start}
+### Início {#project-setup-start}
 
-To start our project, let's create our folder.
+Para iniciar nosso projeto, vamos criar nossa pasta.
 
 ```
 mkdir express-project
@@ -25,13 +25,13 @@ mkdir express-project
 cd express-project
 ```
 
-Now, we need init the npm with the command below.
+Agora, nós precisamos iniciar o npm com o comando abaixo.
 
 ```
 npm init
 ```
 
-Answner all the npm prompt questions and then our `package.json` will created and look like that.
+Responda todas perguntas que aparecer no terminal e então nosso `package.json` será criado e vai ser parecido com o exemplo abaixo.
 
 ```JSON
 //package.json
@@ -50,27 +50,29 @@ Answner all the npm prompt questions and then our `package.json` will created an
 
 ```
 
-Now we can use the npm to install packages in our project, in this case we will install the `express.js`.
+Agora nós podemos usar o `npm` para instalar pacotes em nosso projeto, neste caso nós vamos instalar o `express.js`.
 
-### Install express and dependencies {#project-setup-install-express-dependencies}
+### Instalando o express {#project-setup-install-express-dependencies}
 
-Inside our project let's install the express.
+Dentro de nosso projeto vamos instalar o express.
 
 ```
 npm install express --save
 ```
-Now we can configure our server and application express.
 
-### Create application
+Agora nós podemos configurar nosso `server` e nossa aplicação express.
 
-Now we can create our application express. Let's create him in our `src` folder.
+### Criando aplicação
+
+Agora nós podemos criar nossa aplicação express. Vamos criá-lo em nossa pasta `src`.
+
 ```
 mkdir src
 
 nano app.js
 ```
 
-In our `app.js` we can define routes and responses by that route. Example:
+Em nosso `app.js` nós podemos definir rotas e seus retornos. Exemplo:
 
 ```js
 // ~/src/app.js
@@ -87,9 +89,9 @@ module.exports = app;
 
 ```
 
-### Create server
+### Criando server
 
-If you follow all steps above, you are already to create the `server` to our project. In your root folder, create a `server.js` file. He look's like that:
+Se você seguiu todos os passos acima, você está pronto para criar o `server` para seu projeto. Em nossa pasta `root`, crie um arquivo chamado `server.js`. Ele vai parecer assim:
 
 ```js
 const app = require('./src/app.js');
@@ -102,15 +104,14 @@ server.listen(3000, function () {
 })
 
 ```
-
-Now we can run the command in our terminal.
+Agora podemos rodar o comando em nosso terminal.
 
 ```
 node server.js
 ```
 
-Then, the prompt message will displayed for you and you can access the [localhost:3000](localhost:3000).
+Pronto, uma mensagem no terminal vai aparecer e você poderá acessar [localhost:3000](localhost:3000).
 
-## Conclusion
+## Conclusão
 
-Now we can save this project in our Github and use like template for new jobs required node.js and express. That's sounds good for productivitie.
+Agora podemos salvar este projeto em nosso Github e usar como um template para novos trabalhos que requer node.js e express. Isso é muito bom para produtividade.
