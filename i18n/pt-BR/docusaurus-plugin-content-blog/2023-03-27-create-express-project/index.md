@@ -1,15 +1,15 @@
 ---
 authors: enriqueprieto
-slug: create-express-project
+slug: criar-projeto-express
 ---
 
-# Create an express project
+# Criar um projeto express
 
-Hi guys, in this article I'll create a simple express project and share with you each step. Ok, let's see below what you will find in this article.
+Olá pessoal, neste artigo eu vou criar um simples projeto express e compartilhar com você cada passo.
 
 <!--truncate-->
 
-## About express.js {#about-express}
+## Sobre o express.js {#sobre-express}
 
 In my words, the `express.js` is a framework where you can create HTTP server with requests like `GET`, `POST`, `PUT` and `DELETE` using `node.js`. If you want to know more about the `express.js` (click here)[https://expressjs.com] to visit the page, there you will find all resources from the framework.
 
