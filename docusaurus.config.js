@@ -8,12 +8,12 @@ const NavbarConfig = require('./src/config/navbar');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Prieto Blog',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://prieto-bloc.tec.br',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'prieto-blog', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -31,7 +31,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'pt-BR',
-    locales: ['en', 'pt-BR'],
+    locales: ['pt-BR'],
   },
 
   presets: [
@@ -41,11 +41,7 @@ const config = {
         docs: false,
         blog: {
           routeBasePath: '/',
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          showReadingTime: true
         }
       }
     ],
@@ -61,33 +57,29 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: 'Redes Sociais',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/enrique__prieto',
               },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/enrique-prieto',
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/enriqueprieto/prieto-blog',
               },
             ],
-          },
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Este blog foi criado utilizando Docusaurus.`,
+      },
+      blog: {
+        sidebar: {
+          hideable: true
+        }
       },
       prism: {
         theme: lightCodeTheme,

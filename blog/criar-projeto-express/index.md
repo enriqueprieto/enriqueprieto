@@ -11,11 +11,11 @@ Olá pessoal, neste artigo eu vou criar um simples projeto express e compartilha
 
 ## Sobre o express.js {#sobre-express}
 
-Em minhas palavras, o `express.js` é um framework onde você pode criar servidores com requisições HTTP como `GET`, `POST`, `PUT` e `DELETE` usando `node.js`. Se você quer saber mais sobre o `express.js` (clique aqui)[https://expressjs.com] para visitar o site, lá você irá encontrar todos os recursos do framework.
+Em minhas palavras, o `express.js` é um framework onde você pode criar servidores com requisições HTTP como `GET`, `POST`, `PUT` e `DELETE` usando `node.js`. Se você quer saber mais sobre o `express.js` [clique aqui](https://expressjs.com) para visitar o site, lá você irá encontrar todos os recursos do framework.
 
-## Configurar o projeto {#project-setup}
+## Configurar o projeto {#configurar-projeto}
 
-### Início {#project-setup-start}
+### Início {#inicio}
 
 Para iniciar nosso projeto, vamos criar nossa pasta.
 
@@ -52,7 +52,7 @@ Responda todas perguntas que aparecer no terminal e então nosso `package.json` 
 
 Agora nós podemos usar o `npm` para instalar pacotes em nosso projeto, neste caso nós vamos instalar o `express.js`.
 
-### Instalando o express {#project-setup-install-express-dependencies}
+### Instalando o express {#instalando-express}
 
 Dentro de nosso projeto vamos instalar o express.
 
@@ -62,7 +62,7 @@ npm install express --save
 
 Agora nós podemos configurar nosso `server` e nossa aplicação express.
 
-### Criando aplicação
+### Criando aplicação {#criando-aplicacao}
 
 Agora nós podemos criar nossa aplicação express. Vamos criá-lo em nossa pasta `src`.
 
@@ -89,7 +89,7 @@ module.exports = app;
 
 ```
 
-### Criando server
+### Criando server {#criando-server}
 
 Se você seguiu todos os passos acima, você está pronto para criar o `server` para seu projeto. Em nossa pasta `root`, crie um arquivo chamado `server.js`. Ele vai parecer assim:
 
@@ -112,6 +112,8 @@ node server.js
 
 Pronto, uma mensagem no terminal vai aparecer e você poderá acessar [localhost:3000](localhost:3000).
 
-## Conclusão
+## Conclusão {#conclusao}
 
-Agora podemos salvar este projeto em nosso Github e usar como um template para novos trabalhos que requer node.js e express. Isso é muito bom para produtividade.
+Agora podemos salvar este projeto em nosso Github e usar como um template para novos trabalhos que requer `node.js` e `express`. Isso é muito bom para produtividade. 
+
+Este foi um artigo e um projeto bem simples e básico, mais para mostrar como é montar um projeto utilizando a biblioteca `express`.
