@@ -9,10 +9,6 @@ module.exports = {
             to: '/', 
             label: 'Início', 
             position: 'left'
-        },
-        {
-            type: 'localeDropdown',
-            position: 'right', 
         }
     ]
 }
