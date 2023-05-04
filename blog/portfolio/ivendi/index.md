@@ -12,6 +12,10 @@ Outro objetivo do projeto era oferecer uma comunicação direta com um corretor 
 
 Então juntando uma proposta de criar uma nova experiência de usuário e resolver uma dor, era um momento certo para encontrar algo que  _**dê match**_. 
 
+### Ferramentas Utilizadas {#design-ferramentas-utilizadas}
+
+texto aqui.
+
 ### Tinder {#design-tinder}
 
 Fora o trocadilho acima, era uma comunicação que tinha com os **stackeholders** que acabou virar uma inspiração usar o modelo do Tinder para exibir os imóveis para o usuário. A interação era simples, se gostou do imóvel aperte no _like_ se não no _dislike_.
@@ -27,3 +31,65 @@ Foi preciso criar vários fluxos para mapear o uso, navegação do usuário e ga
 No fluxo principal é o fluxo onde o usuário vai encontrar novos imóveis, visualizar e entrar em contato com o corretor.
 
 ![iVendi Design Fluxo Principal](./assets/ivendi_design_fluxo_principal.png)
+
+#### Navegação {#design-fluxos-navegacao}
+
+Texto aqui.
+
+#### Autenticação {#design-fluxos-autenticacao}
+
+Texto aqui.
+
+#### Cadastro de Cliente {#design-fluxos-cadastro-cliente}
+
+Texto aqui.
+
+#### Cadastro de Anunciante {#design-fluxos-cadastro-anunciante}
+
+Texto aqui.
+
+#### Cadastro de Imóvel {#design-fluxos-cadastro-imovel}
+
+Texto aqui.
+
+#### Cadastro de Anuncio {#design-fluxos-cadastro-anuncio}
+
+Texto aqui.
+
+#### Perfil {#design-fluxos-perfil}
+
+Texto aqui.
+
+#### Plano {#design-fluxos--plano}
+
+Texto aqui.
+
+#### Favoritos {#design-fluxos-favoritos}
+
+Texto aqui.
+
+#### Anúncios {#design-fluxos-anuncios}
+
+Texto aqui.
+
+---
+
+## Desenvolvimento {#desenvolvimento}
+
+Texto aqui
+
+### Ferramentas utilizadas {#desenvolvimento-ferramentas-utilizadas}
+
+Texto aqui
+#### FrontEnd {#desenvolvimento-frontend}
+
+Texto aqui
+
+#### BackEnd {#desenvolvimento-backend}
+
+Texto aqui
+
+### Aplicativo Mobile {#desenvolvimento-aplicativo-mobile}
+
+Texto aqui
+
