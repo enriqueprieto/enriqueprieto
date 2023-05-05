@@ -21,7 +21,7 @@ Para realizar as criações utilizei algumas técnicas e ferramentas.
 | UX    | Técnica       | Wireframe       |
 | UI    | Ferramenta    | Adobe XD        |
 | UI    | Design System | Ionic Framework |
-| UI    | Icons         | Ionic Framework |
+| UI    | Ícones        | Ionic Framework |
 
 
 ### Tinder {#design-tinder}
