@@ -14,7 +14,15 @@ Então juntando uma proposta de criar uma nova experiência de usuário e resolv
 
 ### Ferramentas Utilizadas {#design-ferramentas-utilizadas}
 
-texto aqui.
+Para realizar as criações utilizei algumas técnicas e ferramentas.
+
+| Área  | Tipo          | Nome            |
+|-------|---------------|-----------------|
+| UX    | Técnica       | Wireframe       |
+| UI    | Ferramenta    | Adobe XD        |
+| UI    | Design System | Ionic Framework |
+| UI    | Icons         | Ionic Framework |
+
 
 ### Tinder {#design-tinder}
 
@@ -34,43 +42,71 @@ No fluxo principal é o fluxo onde o usuário vai encontrar novos imóveis, visu
 
 #### Navegação {#design-fluxos-navegacao}
 
-Texto aqui.
+Nossa missão quando estamos projetando uma interface para o usuário é permitir que ele consiga navegar e encontrar o que ele procura dentro da interface. Então uma barra de navegação é uma solução bem útil.
+
+<!-- ![iVendi Design Fluxo Navegação](./assets/ivendi_design_fluxo_navegacao.png) -->
 
 #### Autenticação {#design-fluxos-autenticacao}
 
-Texto aqui.
+Nesse projeto teve uma necessidade para que os usuários tivesse uma conta criada, então precisamos fazer uma forma que o usuário podesse se autenticar na aplicação.
+
+<!-- ![iVendi Design Fluxo Autenticação](./assets/ivendi_design_fluxo_autenticacao.png) -->
 
 #### Cadastro de Cliente {#design-fluxos-cadastro-cliente}
 
-Texto aqui.
+Todo usuário cadastrado no projeto ele virava um cliente. Então após o usuário criar a conta e é o primeiro acesso dele, criamos um formulário mais limpo para dar uma experiência de fazer uma pergunta de cada vez para o usuário.
+
+<!-- ![iVendi Design Fluxo Cadastro de Cliente](./assets/ivendi_design_fluxo_cadastro_cliente.png) -->
 
 #### Cadastro de Anunciante {#design-fluxos-cadastro-anunciante}
 
-Texto aqui.
+Como comentei no fluxo anterior, todo usuário era um cliente, mas ele tem a opção de se tornar um anunciante. Para oferecer essa modalidade pensamos em colocar ele em 2 momentos na aplicação. No início logo após ele finalizar o fluxo de [Cadastro de Cliente](#desing-fluxos-cadastro-cliente)
+
+<!-- ![iVendi Design Fluxo Cadastro de Anunciante 1](./assets/ivendi_design_fluxo_cadastro_anunciante_1.png) -->
+
+Na tela inicial tem um botão com ícone de `megafone`.
+
+<!-- ![iVendi Design Fluxo Cadastro de Anunciante 2](./assets/ivendi_design_fluxo_cadastro_anunciante_2.png) -->
+
+E por último na tela de match, nela também o botão com o ícone de `megafone`.
+
+<!-- ![iVendi Design Fluxo Cadastro de Anunciante 3](./assets/ivendi_design_fluxo_cadastro_anunciante_3.png) -->
 
 #### Cadastro de Imóvel {#design-fluxos-cadastro-imovel}
 
-Texto aqui.
+Precisamos permitir que os próprios anunciantes consigam cadastrar os imóveis para poder anunciar.
 
-#### Cadastro de Anuncio {#design-fluxos-cadastro-anuncio}
+<!-- ![iVendi Design Fluxo Cadastro de Imóvel](./assets/ivendi_design_fluxo_cadastro_imovel.png) -->
 
-Texto aqui.
+#### Cadastro de Anúncio {#design-fluxos-cadastro-anuncio}
+
+Para o imóvel aparecer na listagem do usuários, o anunciante precisa criar um anúncio para o imóvel.
+
+<!-- ![iVendi Design Fluxo Cadastro de Anúncio](./assets/ivendi_design_fluxo_cadastro_anuncio.png) -->
 
 #### Perfil {#design-fluxos-perfil}
 
-Texto aqui.
+Um fator muito importante quando se está criando um projeto é poder permitir que o usuário consiga editar suas informações.
+
+<!-- ![iVendi Design Fluxo Perfil](./assets/ivendi_design_fluxo_perfil.png) -->
 
 #### Plano {#design-fluxos--plano}
 
-Texto aqui.
+Criamos também esse fluxo para dar mais credibilidade ao usuário que é anunciante, que é importante já que ele vai deixar registrado dados sensíveis na plataforma para a assinatura estar ativa.
+
+<!-- ![iVendi Design Fluxo Plano](./assets/ivendi_design_fluxo_plano.png) -->
 
 #### Favoritos {#design-fluxos-favoritos}
 
-Texto aqui.
+No decorrer da criação dos fluxos nasceu uma necessidade de oferecer ao usuário um caminho para poder visualizar os imóveis que ele deu _like_.
+
+<!-- ![iVendi Design Fluxo Favoritos](./assets/ivendi_design_fluxo_favoritos.png) -->
 
 #### Anúncios {#design-fluxos-anuncios}
 
-Texto aqui.
+Para entregar mais valor aos anunciantes, criamos esse fluxo para o anunciante poder visualizar os dados de performance dos anúncios criados.
+
+<!-- ![iVendi Design Fluxo Anúncios](./assets/ivendi_design_fluxo_anuncios.png) -->
 
 ---
 
