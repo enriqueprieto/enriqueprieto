@@ -1,3 +1,6 @@
+---
+authors: enriqueprieto
+---
 # Projeto iVendi
 
 O projeto **iVendi** foi um trabalho voltado ao mercado imobiliário, onde o objetivo era oferecer uma nova experiência da pessoa encontrar seu próximo imóvel, seja para comprar ou alugar. Neste artigo irei compartilhar todo o trabalho realizado e apresentar o resultado final do projeto.
@@ -100,7 +103,7 @@ Criamos também esse fluxo para dar mais credibilidade ao usuário que é anunci
 
 No decorrer da criação dos fluxos nasceu uma necessidade de oferecer ao usuário um caminho para poder visualizar os imóveis que ele deu _like_.
 
-<!-- ![iVendi Design Fluxo Favoritos](./assets/ivendi_design_fluxo_favoritos.png) -->
+<!-- ![iVendi Design Fl/uxo Favoritos](./assets/ivendi_design_fluxo_favoritos.png) -->
 
 #### Anúncios {#design-fluxos-anuncios}
 
@@ -112,20 +115,52 @@ Para entregar mais valor aos anunciantes, criamos esse fluxo para o anunciante p
 
 ## Desenvolvimento {#desenvolvimento}
 
-Texto aqui
+Quando surgir a oportunidade de desenvolver esse projeto, decidi projeta-lo utilizando algumas ferramentas que eu já tinha familiaridade. Esse projeto teve seus desafios, como a parte de oferecer assinatura dentro do aplicativo, foi preciso realizar uma integração de um `API` externa de um forncedor.
+
+Na época eu estava trabalhando muito com o `Angular` e o `Ionic Framework`, já sabia criar bastante coisa utilizando o Design System deles. Então quando projetei a UI já estava imaginando o comportamento que eu esperava que a interface fizesse, e isso ajudou bastante, porque alguns detalhes já havia pensado anteriormente e me fez ser mais objetivo na hora de codar.
 
 ### Ferramentas utilizadas {#desenvolvimento-ferramentas-utilizadas}
 
-Texto aqui
-#### FrontEnd {#desenvolvimento-frontend}
+Bom alguns já citei acima, mas vou listar aqui as tecnologias que utilizei no projeto.
 
-Texto aqui
+#### Banco de Dados {#desenvolvimento-ferramentas-utilizadas-banco-de-dados}
 
-#### BackEnd {#desenvolvimento-backend}
+| Nome                 | Descrição            |
+|----------------------|-----------------|
+| `MySQL`              | - |
+| `Firebase Firestore` | - |
 
-Texto aqui
+#### Dashboard {#desenvolvimento-ferramentas-utilizadas-dashboard}
 
-### Aplicativo Mobile {#desenvolvimento-aplicativo-mobile}
+| Nome                 | Descrição            |
+|----------------------|-----------------|
+| `PHP`              | - |
+| `Laravel`              | - |
+| `Ionic Framework`              | - |
+| `VueJs`              | - |
+| `Javascript`              | - |
+| `Sass`              | - |
+| `Laravel Mix`              | - |
 
-Texto aqui
+#### API {#desenvolvimento-ferramentas-utilizadas-api}
 
+| Nome                 | Descrição            |
+|----------------------|-----------------|
+| `PHP`              | - |
+| `Laravel`              | - |
+| `Firebase Functions`              | - |
+| `node.js`              | - |
+| `GoogleMaps API`              | - |
+
+#### Aplicativo {#desenvolvimento-ferramentas-utilizadas-aplicativo}
+
+| Nome                 | Descrição            |
+|----------------------|-----------------|
+| `Angular`              | - |
+| `Ionic Framework`              | - |
+| `Firebase Auth`              | - |
+| `Sass`              | - |
+| `TypeScript`              | - |
+| `FacebookLogin`              | - |
+| `AppleLogin`              | - |
+| `Cordova`              | - |
