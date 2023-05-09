@@ -30,6 +30,9 @@ const config = {
         blog: {
           routeBasePath: '/',
           showReadingTime: true
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
         }
       }
     ],

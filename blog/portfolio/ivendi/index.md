@@ -47,33 +47,29 @@ No fluxo principal é o fluxo onde o usuário vai encontrar novos imóveis, visu
 
 Nossa missão quando estamos projetando uma interface para o usuário é permitir que ele consiga navegar e encontrar o que ele procura dentro da interface. Então uma barra de navegação é uma solução bem útil.
 
-<!-- ![iVendi Design Fluxo Navegação](./assets/ivendi_design_fluxo_navegacao.png) -->
+![iVendi Design Fluxo Navegação](./assets/ivendi_design_fluxo_navegacao.png)
 
 #### Autenticação {#design-fluxos-autenticacao}
 
 Nesse projeto teve uma necessidade para que os usuários tivesse uma conta criada, então precisamos fazer uma forma que o usuário podesse se autenticar na aplicação.
 
-<!-- ![iVendi Design Fluxo Autenticação](./assets/ivendi_design_fluxo_autenticacao.png) -->
+![iVendi Design Fluxo Autenticação](./assets/ivendi_design_fluxo_autenticacao.png)
 
 #### Cadastro de Cliente {#design-fluxos-cadastro-cliente}
 
 Todo usuário cadastrado no projeto ele virava um cliente. Então após o usuário criar a conta e é o primeiro acesso dele, criamos um formulário mais limpo para dar uma experiência de fazer uma pergunta de cada vez para o usuário.
 
-<!-- ![iVendi Design Fluxo Cadastro de Cliente](./assets/ivendi_design_fluxo_cadastro_cliente.png) -->
+![iVendi Design Fluxo Cadastro de Cliente](./assets/ivendi_design_fluxo_cadastro_cliente.png)
 
 #### Cadastro de Anunciante {#design-fluxos-cadastro-anunciante}
 
-Como comentei no fluxo anterior, todo usuário era um cliente, mas ele tem a opção de se tornar um anunciante. Para oferecer essa modalidade pensamos em colocar ele em 2 momentos na aplicação. No início logo após ele finalizar o fluxo de [Cadastro de Cliente](#desing-fluxos-cadastro-cliente)
+Como comentei no fluxo anterior, todo usuário era um cliente, mas ele tem a opção de se tornar um anunciante. Para oferecer essa modalidade pensamos em colocar ele em em várias partes da aplicação. No início logo após ele finalizar o fluxo de [Cadastro de Cliente](#desing-fluxos-cadastro-cliente), na tela principal e na tela do _"match"_.
 
-<!-- ![iVendi Design Fluxo Cadastro de Anunciante 1](./assets/ivendi_design_fluxo_cadastro_anunciante_1.png) -->
+![iVendi Design Fluxo Cadastro de Anunciante 1](./assets/ivendi_design_fluxo_cadastro_anunciante_1.png)
 
-Na tela inicial tem um botão com ícone de `megafone`.
+![iVendi Design Fluxo Cadastro de Anunciante 2](./assets/ivendi_design_fluxo_cadastro_anunciante_2.png)
 
-<!-- ![iVendi Design Fluxo Cadastro de Anunciante 2](./assets/ivendi_design_fluxo_cadastro_anunciante_2.png) -->
-
-E por último na tela de match, nela também o botão com o ícone de `megafone`.
-
-<!-- ![iVendi Design Fluxo Cadastro de Anunciante 3](./assets/ivendi_design_fluxo_cadastro_anunciante_3.png) -->
+![iVendi Design Fluxo Cadastro de Anunciante 3](./assets/ivendi_design_fluxo_cadastro_anunciante_3.png)
 
 #### Cadastro de Imóvel {#design-fluxos-cadastro-imovel}
 
@@ -125,42 +121,39 @@ Bom alguns já citei acima, mas vou listar aqui as tecnologias que utilizei no p
 
 #### Banco de Dados {#desenvolvimento-ferramentas-utilizadas-banco-de-dados}
 
-| Nome                 | Descrição            |
-|----------------------|-----------------|
-| `MySQL`              | - |
-| `Firebase Firestore` | - |
+| Nome                 | Descrição                                                                                                            |
+|----------------------|----------------------------------------------------------------------------------------------------------------------|
+| `MySQL`              | Escolhi um banco de dados relacional para registrar todos dados que o aplicativo, api e dashboard iriam compartilhar |
 
 #### Dashboard {#desenvolvimento-ferramentas-utilizadas-dashboard}
 
-| Nome                 | Descrição            |
-|----------------------|-----------------|
-| `PHP`              | - |
-| `Laravel`              | - |
-| `Ionic Framework`              | - |
-| `VueJs`              | - |
-| `Javascript`              | - |
-| `Sass`              | - |
-| `Laravel Mix`              | - |
+| Nome                 | Descrição                                                                                                      |
+|----------------------|----------------------------------------------------------------------------------------------------------------|
+| `PHP`                | Linguagem de servidor para o Laravel                                                                           |
+| `Laravel`            | Framework muito poderoso para construção de sistemas e API                                                     |
+| `Ionic Framework`    | Utilizado apenas o Design System para criar a `UI` do Dashboard                                                |
+| `VueJs`              | Framework front-end fácil de construir `UI` e já vem no projeto `Laravel`                                      |
+| `Javascript`         | O Dashboard não necessitada de outra tecnologia mais robusta                                                   |
+| `Sass`               | Para facilitar a escrita de estilo e poder criar padrões dentro do Design System de forma customizada.         |
+| `Laravel Mix`        | É uma ferramenta que já vem no `Laravel` mas ajuda bastante para abstrair a complexidade de montar um `webpack`|
 
 #### API {#desenvolvimento-ferramentas-utilizadas-api}
 
-| Nome                 | Descrição            |
-|----------------------|-----------------|
-| `PHP`              | - |
-| `Laravel`              | - |
-| `Firebase Functions`              | - |
-| `node.js`              | - |
-| `GoogleMaps API`              | - |
+| Nome               | Descrição                                                                                                    |
+|--------------------|--------------------------------------------------------------------------------------------------------------|
+| `PHP`              | Linguagem de servidor utilizada pelo `Laravel`                                                               |
+| `Laravel`          | Esse framework ajuda bastante na criação de API e abstrai muitos problemas relacionados a web e servidor.    |
+| `GoogleMaps API`   | Utilizei o decode para conseguir dados de localização seja por CEP ou passando latitude ou longitude.        |
 
 #### Aplicativo {#desenvolvimento-ferramentas-utilizadas-aplicativo}
 
-| Nome                 | Descrição            |
-|----------------------|-----------------|
-| `Angular`              | - |
-| `Ionic Framework`              | - |
-| `Firebase Auth`              | - |
-| `Sass`              | - |
-| `TypeScript`              | - |
-| `FacebookLogin`              | - |
-| `AppleLogin`              | - |
-| `Cordova`              | - |
+| Nome               | Descrição                                                                                                                                            |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `TypeScript`       | Linguagem utilizada pelo Angular                                                                                                                     |
+| `Angular`          | É um framework front-end muito completo que me ajudou a bastante contruir uma aplicação web.                                                         |
+| `Ionic Framework`  | Com o Design System completo e bem dinâmico acelerou bastante o desenvolvimento do proejto.                                                          |
+| `Firebase Auth`    | Como serviço de autenticação de usuários utilizei o Firebase porque ele já abstraiu todo aquele trabalho de criar usuario, controle de sessão etc.   |
+| `Sass`             | Para facilitar a escrita de estilo e poder criar padrões dentro do Design System de forma customizada.                                               |
+| `FacebookLogin`    | No nativo era preciso utilizar um plugin nativo de login do Fabebook                                                                                 |
+| `AppleLogin`       | No nativo era preciso utilizar um plugin nativo de login da Apple                                                                                    |
+| `Cordova`          | Ferramenta que consegue transformar nosso aplicativo web em aplicativo WebView no IOS e Android.                                                     |
