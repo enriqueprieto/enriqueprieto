@@ -1,5 +1,6 @@
 ---
 authors: enriqueprieto
+tags: [portfolio]
 ---
 # Projeto iVendi
 
@@ -71,41 +72,35 @@ Como comentei no fluxo anterior, todo usuário era um cliente, mas ele tem a op�
 
 ![iVendi Design Fluxo Cadastro de Anunciante 3](./assets/ivendi_design_fluxo_cadastro_anunciante_3.png)
 
-#### Cadastro de Imóvel {#design-fluxos-cadastro-imovel}
-
-Precisamos permitir que os próprios anunciantes consigam cadastrar os imóveis para poder anunciar.
-
-<!-- ![iVendi Design Fluxo Cadastro de Imóvel](./assets/ivendi_design_fluxo_cadastro_imovel.png) -->
-
 #### Cadastro de Anúncio {#design-fluxos-cadastro-anuncio}
 
 Para o imóvel aparecer na listagem do usuários, o anunciante precisa criar um anúncio para o imóvel.
 
-<!-- ![iVendi Design Fluxo Cadastro de Anúncio](./assets/ivendi_design_fluxo_cadastro_anuncio.png) -->
+![iVendi Design Fluxo Cadastro de Anúncio](./assets/ivendi_design_fluxo_cadastro_anuncio.png)
 
 #### Perfil {#design-fluxos-perfil}
 
 Um fator muito importante quando se está criando um projeto é poder permitir que o usuário consiga editar suas informações.
 
-<!-- ![iVendi Design Fluxo Perfil](./assets/ivendi_design_fluxo_perfil.png) -->
+![iVendi Design Fluxo Perfil](./assets/ivendi_design_fluxo_perfil.png)
 
 #### Plano {#design-fluxos--plano}
 
 Criamos também esse fluxo para dar mais credibilidade ao usuário que é anunciante, que é importante já que ele vai deixar registrado dados sensíveis na plataforma para a assinatura estar ativa.
 
-<!-- ![iVendi Design Fluxo Plano](./assets/ivendi_design_fluxo_plano.png) -->
+![iVendi Design Fluxo Plano](./assets/ivendi_design_fluxo_plano.png)
 
 #### Favoritos {#design-fluxos-favoritos}
 
 No decorrer da criação dos fluxos nasceu uma necessidade de oferecer ao usuário um caminho para poder visualizar os imóveis que ele deu _like_.
 
-<!-- ![iVendi Design Fl/uxo Favoritos](./assets/ivendi_design_fluxo_favoritos.png) -->
+![iVendi Design Fluxo Favoritos](./assets/ivendi_design_fluxo_favoritos.png)
 
 #### Anúncios {#design-fluxos-anuncios}
 
 Para entregar mais valor aos anunciantes, criamos esse fluxo para o anunciante poder visualizar os dados de performance dos anúncios criados.
 
-<!-- ![iVendi Design Fluxo Anúncios](./assets/ivendi_design_fluxo_anuncios.png) -->
+![iVendi Design Fluxo Anúncios](./assets/ivendi_design_fluxo_anuncios.png)
 
 ---
 
