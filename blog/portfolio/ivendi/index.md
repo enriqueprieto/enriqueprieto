@@ -4,17 +4,17 @@ tags: [portfolio]
 ---
 # Projeto iVendi
 
-O projeto **iVendi** foi um trabalho voltado ao mercado imobiliário, onde o objetivo era oferecer uma nova experiência da pessoa encontrar seu próximo imóvel, seja para comprar ou alugar. Neste artigo irei compartilhar todo o trabalho realizado e apresentar o resultado final do projeto.
+O projeto **iVendi** foi um trabalho voltado ao mercado imobiliário, onde o objetivo era oferecer uma nova experiência para as pessoas encontrarem seu próximo imóvel, seja para comprar ou alugar. Neste artigo irei compartilhar sobre o **desing** e o **desenvolvimento** deste projeto.
 
 <!--truncate-->
 
 ## Design{#design}
 
-Desde o início do projeto havia um interesse de criar um aplicativo que oferecesse uma nova experiência para as pessoas encontrar o seu próximo imóvel. Se você já precisou encontrar uma casa para alugar ou comprar, deve ter percebido que a maioria dos sites de imobiiárias são da mesma forma. 
+Desde o início do projeto havia um interesse de criar um aplicativo que oferecesse uma nova experiência para as pessoas encontrarem o seu próximo imóvel. Se você já precisou encontrar um imóvel para alugar ou comprar, deve ter percebido que a maioria dos sites de imobiiárias são da mesma forma. 
 
 Outro objetivo do projeto era oferecer uma comunicação direta com um corretor que estaria anunciando o imóvel no aplicativo. Uma das dores dos corretores era que nos sites das imobiliárias eles não tinha uma comunição direta com a pessoa que estava buscando o imóvel ou precisava passar por um chat interno o que deixava a experiência mais massiva de fazer.
 
-Então juntando uma proposta de criar uma nova experiência de usuário e resolver uma dor, era um momento certo para encontrar algo que  _**dê match**_. 
+Então juntando uma proposta de criar uma nova experiência de usuário e resolver uma dor, era um momento certo para encontrar alguma solução que desse um _**match**_ entre o cliente(pessoa interessada em imóvel) e anunciante(corretores). 
 
 ### Ferramentas Utilizadas {#design-ferramentas-utilizadas}
 
@@ -30,13 +30,13 @@ Para realizar as criações utilizei algumas técnicas e ferramentas.
 
 ### Tinder {#design-tinder}
 
-Fora o trocadilho acima, era uma comunicação que tinha com os **stackeholders** que acabou virar uma inspiração usar o modelo do Tinder para exibir os imóveis para o usuário. A interação era simples, se gostou do imóvel aperte no _like_ se não no _dislike_.
+O trocadilho _**dar match**_, era uma comunicação que sempre tinha nos encontros com os **stackeholders** que acabou virando uma inspiração usar o modelo do **Tinder** para exibir os imóveis para os usuários. A **UX** era simples, se o usuário gostou do imóvel, aperte no _like_, se não no _dislike_.
 
 ![iVendi Design Tinder](./assets/ivendi_design_tinder.png)
 
 ### Fluxos {#design-fluxos}
 
-Foi preciso criar vários fluxos para mapear o uso, navegação do usuário e garantir uma boa experiência do usuário. Abaixo irei destacar os principais fluxos criados:
+Foi preciso criar vários fluxos para mapear o uso, navegação do usuário e garantir uma boa experiência do usuário. Abaixo irei apresentar os principais fluxos criados:
 
 #### Principal {#design-fluxos-principal}
 
@@ -46,31 +46,39 @@ No fluxo principal é o fluxo onde o usuário vai encontrar novos imóveis, visu
 
 #### Navegação {#design-fluxos-navegacao}
 
-Nossa missão quando estamos projetando uma interface para o usuário é permitir que ele consiga navegar e encontrar o que ele procura dentro da interface. Então uma barra de navegação é uma solução bem útil.
+Nossa missão quando estamos projetando uma **UX** para o usuário é permitir que ele consiga navegar e encontrar o que ele procura dentro da **UI**.
 
 ![iVendi Design Fluxo Navegação](./assets/ivendi_design_fluxo_navegacao.png)
 
 #### Autenticação {#design-fluxos-autenticacao}
 
-Nesse projeto teve uma necessidade para que os usuários tivesse uma conta criada, então precisamos fazer uma forma que o usuário podesse se autenticar na aplicação.
+Nesse projeto teve uma necessidade para que cada um dos usuários tivessem uma conta criada, então precisamos fazer uma forma que o usuário podesse se autenticar na aplicação.
 
 ![iVendi Design Fluxo Autenticação](./assets/ivendi_design_fluxo_autenticacao.png)
 
+Através dessa tela o usuário consegue se cadastrar via redes socias e também tem a possibilidade de cadastrar por e-mail utilizando o botão "Cadastrar".
+
 #### Cadastro de Cliente {#design-fluxos-cadastro-cliente}
 
-Todo usuário cadastrado no projeto ele virava um cliente. Então após o usuário criar a conta e é o primeiro acesso dele, criamos um formulário mais limpo para dar uma experiência de fazer uma pergunta de cada vez para o usuário.
+Após o usuário criar a conta, criamos uma **UX** mais limpa de capturar os dados, a idéia era passar a experiência que o aplicativo conversasse com o usuário.
 
 ![iVendi Design Fluxo Cadastro de Cliente](./assets/ivendi_design_fluxo_cadastro_cliente.png)
 
 #### Cadastro de Anunciante {#design-fluxos-cadastro-anunciante}
 
-Como comentei no fluxo anterior, todo usuário era um cliente, mas ele tem a opção de se tornar um anunciante. Para oferecer essa modalidade pensamos em colocar ele em em várias partes da aplicação. No início logo após ele finalizar o fluxo de [Cadastro de Cliente](#desing-fluxos-cadastro-cliente), na tela principal e na tela do _"match"_.
+Todo usuário podem se tornar um anunciante. Para oferecer essa modalidade pensamos em colocar ele em em várias partes da aplicação. No início logo após ele finalizar o fluxo de Cadastro de Cliente, na tela principal e na tela do _"match"_.
 
 ![iVendi Design Fluxo Cadastro de Anunciante 1](./assets/ivendi_design_fluxo_cadastro_anunciante_1.png)
 
+A ideia da UX é a mesma do fluxo anterior, passar a sensação que o aplicativo estivesse conversando com o usuário.
+
 ![iVendi Design Fluxo Cadastro de Anunciante 2](./assets/ivendi_design_fluxo_cadastro_anunciante_2.png)
 
+Diferente de um usuário comum, o anunciante precisava preenchar alguns dados pessoas que são obrigatórios.
+
 ![iVendi Design Fluxo Cadastro de Anunciante 3](./assets/ivendi_design_fluxo_cadastro_anunciante_3.png)
+
+Como modelo de negócio iria funcionar como uma assinatura, o usuário escolhia o plano e registrava um cartão para realizar a assinatura.
 
 #### Cadastro de Anúncio {#design-fluxos-cadastro-anuncio}
 
