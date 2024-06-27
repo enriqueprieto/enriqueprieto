@@ -8,7 +8,7 @@ tags: ['blog', 'tutorial', 'docker', 'wordpress', 'php', 'mysql', 'apache', 'git
 
 Quer agilizar seu desenvolvimento WordPress sem complicações? Vou te mostrar como criar um ambiente local idêntico ao servidor final usando Docker. Vamos configurar WordPress, Apache e MySQL em poucos passos!
 
-<!--truncate--> 
+<!--truncate-->
 
 Para quem trabalha com WordPress há um tempo, sabe que ter um ambiente de desenvolvimento local agiliza o desenvolvimento e muitas vezes o setup para fazer um WordPress funcionar pode ser desafiador.
 
@@ -20,7 +20,7 @@ Sabemos também como é trabalhoso quando precisamos trabalhar em um tema ou plu
 
 Neste artigo, quero compartilhar como você pode criar um container no Docker com o WordPress, Apache e MySQL. Vou explicar as etapas para rodar seu WordPress localmente, para que você possa fazer por conta própria e aprender como funciona. Também deixarei o repositório no meu GitHub para que você possa fazer um fork e suas alterações. Caso sentir no coração, pode dar uma estrelinha nele também.
 
-Se quiser saber mais sobre cada ferramenta, pedi a ajuda do ChatGPT para dar um resumo, mas deixarei um link para cada ferramenta para que você possa buscar mais informações. Caso queira partir direto para o "vamos ver", (clique aqui)[#hora-da-verdade]
+Se quiser saber mais sobre cada ferramenta, pedi a ajuda do ChatGPT para dar um resumo, mas deixarei um link para cada ferramenta para que você possa buscar mais informações. Caso queira partir direto para o "vamos ver", [clique aqui](#hora-da-verdade)
 
 ## Antes de Começar
 
@@ -122,6 +122,8 @@ Abra o navegador e acesse `http://localhost:8080`. Você verá a tela de instala
 ## Conclusão
 
 Com essas etapas simples, você consegue configurar um ambiente local para desenvolver e testar seus projetos WordPress de forma rápida e eficiente, utilizando Docker e Docker Compose. Isso garante que seu ambiente de desenvolvimento seja o mais próximo possível do ambiente de produção, minimizando problemas e diferenças de configuração.
+
+O código que utilizei para criar o exemplo deste post, eu coloquei em um repositório no GitHub, [clique aqui](https://github.com/enriqueprieto/wordpress-local).
 
 Se tiver alguma dúvida ou sugestão, sinta-se à vontade para deixar um comentário. E não se esqueça de visitar o repositório no GitHub para mais detalhes e futuras atualizações!
 
