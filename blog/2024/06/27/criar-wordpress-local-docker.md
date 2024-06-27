@@ -26,7 +26,7 @@ Se quiser saber mais sobre cada ferramenta, pedi a ajuda do ChatGPT para dar um 
 
 Como em todo projeto, existem tipos de dependências que são obrigatórias para o funcionamento do que irei compartilhar neste artigo.
 
-As dependências são o **Docker** e o **Docker Compose**, ambas precisam ser instalada em sua máquina. Caso seu sistema operacional seja Linux, siga este tutorial. Caso seu sistema operacional seja Windows, siga este tutorial.
+As dependências são o **Docker** e o **Docker Compose**, ambas precisam ser instalada em sua máquina. Caso seu sistema operacional seja Linux, siga este [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt). Caso seu sistema operacional seja Windows, siga este [tutorial](https://simplescloud.io/como-instalar-ou-atualizar-o-docker-e-o-docker-compose).
 
 ### Sobre as Ferramentas
 
