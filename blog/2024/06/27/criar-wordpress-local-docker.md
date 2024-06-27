@@ -1,4 +1,14 @@
+---
+authors: enriqueprieto
+slug: criar-wordpress-local-docker
+tags: ['blog', 'tutorial', 'docker', 'wordpress', 'php', 'mysql', 'apache', 'github']
+---
+
 # Como Criar um Container no Docker com WordPress + MySQL
+
+Quer agilizar seu desenvolvimento WordPress sem complicações? Vou te mostrar como criar um ambiente local idêntico ao servidor final usando Docker. Vamos configurar WordPress, Apache e MySQL em poucos passos!
+
+<!--truncate--> 
 
 Para quem trabalha com WordPress há um tempo, sabe que ter um ambiente de desenvolvimento local agiliza o desenvolvimento e muitas vezes o setup para fazer um WordPress funcionar pode ser desafiador.
 
@@ -10,7 +20,7 @@ Sabemos também como é trabalhoso quando precisamos trabalhar em um tema ou plu
 
 Neste artigo, quero compartilhar como você pode criar um container no Docker com o WordPress, Apache e MySQL. Vou explicar as etapas para rodar seu WordPress localmente, para que você possa fazer por conta própria e aprender como funciona. Também deixarei o repositório no meu GitHub para que você possa fazer um fork e suas alterações. Caso sentir no coração, pode dar uma estrelinha nele também.
 
-Se quiser saber mais sobre cada ferramenta, pedi a ajuda do ChatGPT para dar um resumo, mas deixarei um link para cada ferramenta para que você possa buscar mais informações. Caso queira partir direto para o "vamos ver", clique aqui
+Se quiser saber mais sobre cada ferramenta, pedi a ajuda do ChatGPT para dar um resumo, mas deixarei um link para cada ferramenta para que você possa buscar mais informações. Caso queira partir direto para o "vamos ver", (clique aqui)[#hora-da-verdade]
 
 ## Antes de Começar
 
@@ -21,18 +31,23 @@ As dependências são o **Docker** e o **Docker Compose**, ambas precisam ser in
 ### Sobre as Ferramentas
 
 **WordPress**
+
 WordPress é um sistema de gerenciamento de conteúdo (CMS) de código aberto, amplamente utilizado para criar e gerenciar sites. Sua flexibilidade e extensibilidade permitem que desenvolvedores criem temas e plugins personalizados, adaptando o site às necessidades específicas dos usuários. Com uma grande comunidade de suporte, WordPress é a escolha ideal tanto para iniciantes quanto para desenvolvedores experientes.
 
 **Apache** 
+
 Apache HTTP Server, frequentemente referido como Apache, é um dos servidores web mais populares e utilizados no mundo. Ele é conhecido por sua robustez, flexibilidade e suporte extensivo para módulos, permitindo a personalização do servidor conforme as necessidades específicas do site. Apache é frequentemente utilizado em conjunto com outras tecnologias, como PHP, para hospedar aplicações web dinâmicas.
 
 **MySQL** 
+
 MySQL é um sistema de gerenciamento de banco de dados relacional (RDBMS) que utiliza a linguagem SQL (Structured Query Language) para acessar e gerenciar os dados. É uma das escolhas mais populares para aplicações web devido à sua confiabilidade, desempenho e facilidade de uso. MySQL é frequentemente usado em conjunto com PHP e Apache no famoso stack LAMP (Linux, Apache, MySQL, PHP).
 
 **Docker**
+
 Docker é uma plataforma de código aberto que automatiza a implantação de aplicações dentro de containers de software, fornecendo uma camada adicional de abstração e automação de virtualização a nível de sistema operacional. Ele permite que desenvolvedores empacotem uma aplicação com todas as partes necessárias, como bibliotecas e outras dependências, e as distribuam como um único pacote. Isso garante que a aplicação funcione em qualquer ambiente que suporte Docker.
 
 **Docker Compose** 
+
 Docker Compose é uma ferramenta que permite definir e gerenciar aplicações multi-container no Docker. Com o Docker Compose, você pode usar um arquivo YAML para configurar os serviços da aplicação, redes e volumes. Isso facilita a configuração e o gerenciamento de ambientes de desenvolvimento e teste complexos, tornando mais simples a execução de múltiplos containers com uma única linha de comando.
 
 ## Hora da Verdade
