@@ -83,4 +83,74 @@
             }
         }
     }
+
+    &__contact {
+        text-align: center;
+        padding: 4rem 0;
+        background-color: var(--ifm-color-secondary);
+
+        @media (min-width: 48rem) {
+            padding: 8rem 0;
+            text-align: left;
+        }
+
+        &__header {
+            &__title {
+                font-size: 1.5rem;
+                color: var(--ifm-color-primary);
+
+                @media (min-width: 48rem) {
+                    font-size: 2.25rem;
+                }
+            }
+
+            &__description {
+                @media (min-width: 48rem) {
+                    max-width: 31.063rem;
+                }
+            }
+        }
+
+        &__list {
+            padding: 0;
+            margin: 0;
+
+            @media (min-width: 48rem) {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: flex-start;
+            }
+
+            &__item {
+                display: block;
+            }
+
+            &__item + &__item {
+                margin-top: 0.5rem;
+
+                @media (min-width: 48rem) {
+                    margin-top: 0;
+                    margin-left: 0.5rem;
+                }
+            }
+        }
+
+        &__link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            &__icon {
+                margin-right: 0.5rem;
+                width: 1.5rem;
+                height: 1.5rem;
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
 }

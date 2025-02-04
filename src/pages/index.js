@@ -1,5 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import IconWhatsApp from '@site/static/img/icon-whatsapp.svg';
+import IconEnvelope from '@site/static/img/icon-envelope.svg';
 
 export default function Home() {
     return (
@@ -10,12 +12,13 @@ export default function Home() {
         >
             <header className="home__header">
                 <div className="container">
-                    <div class="home__header__wrapper">
+                    <div className="home__header__wrapper">
                         <div className="home__header__photo">
                             <picture className="home__header__photo__picture">
                                 <img 
                                     src="https://github.com/enriqueprieto.png"
-                                    className="home__header__photo__img"
+                                    className="home__header__photo__img shadow--tl"
+                                    loading="lazy"
                                 />
                             </picture>
                         </div>
@@ -37,21 +40,47 @@ export default function Home() {
             </header>
 
             <main>
-                <section id="contact">
-                    <header>
-                        <h2>Como posso te ajudar?</h2>
-                    </header>
+                <section 
+                    id="contact"
+                    className="home__contact"
+                >
+                    <div className="container">
+                        <header className="home__contact__header">
+                            <h2 className="home__contact__header__title">Como posso te ajudar?</h2>
 
-                    <p>Será um prazer conhecer seu projeto e saber como posso contribuir. Fique a vontade para entrar em contato comigo por achar melhor, pode ser por Whatsapp e/ou E-mail, só utilizar os botões abaixo.</p>
+                            <p className="home__contact__header__description">
+                                Será um prazer conhecer seu projeto e saber como posso contribuir. Fique a vontade para entrar em contato comigo por achar melhor, pode ser por Whatsapp e/ou E-mail, só utilizar os botões abaixo.
+                            </p>
+                        </header>
 
-                    <ul>
-                        <li>
-                            <a href="#">Whatsapp</a>
-                        </li>
-                        <li>
-                            <a href="#">enriqueneto@gmail.com</a>
-                        </li>
-                    </ul>
+                        <ul className="home__contact__list">
+                            <li className="home__contact__list__item">
+                                <a 
+                                    href="https://wa.me/5518996374612?text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20pelo%20seu%20site"
+                                    target="__blank"
+                                    className="home__contact__link button button--outline button--primary button--block"
+                                >
+                                    <span className="home__contact__link__icon">
+                                        <IconWhatsApp width={24} height={24}/>
+                                    </span>
+
+                                    Whatsapp
+                                </a>
+                            </li>
+                            <li className="home__contact__list__item">
+                                <a 
+                                    href="mailto:enriqueneto@gmail.com"
+                                    className="home__contact__link button button--outline button--primary button--block"
+                                >
+                                    <span className="home__contact__link__icon">
+                                        <IconEnvelope width={24} height={24}/>
+                                    </span>
+
+                                    enriqueneto@gmail.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </section>
             </main>
         </Layout>

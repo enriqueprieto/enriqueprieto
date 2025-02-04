@@ -45,26 +45,8 @@ const config = {
       navbar: NavbarConfig,
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Redes Sociais',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/enrique__prieto',
-              },
-              {
-                label: 'Linkedin',
-                href: 'https://www.linkedin.com/in/enrique-prieto',
-              },
-              {
-                label: 'Github',
-                href: 'https://github.com/enriqueprieto/prieto-blog',
-              },
-            ],
-          }
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Este blog foi criado utilizando Docusaurus.`,
+        links: [],
+        copyright: `Copyright © ${new Date().getFullYear()} Este site foi criado utilizando Docusaurus.`,
       },
       blog: {
         sidebar: {
