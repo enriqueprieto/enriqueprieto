@@ -154,3 +154,11 @@
         }
     }
 }
+
+[data-theme="dark"] {
+    .home {
+        &__contact {
+            background-color: var(--ifm-background-surface-color);
+        }
+    }
+}
