@@ -4,12 +4,12 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const NavbarConfig = require('./src/config/navbar');
+const NavbarConfig = require('./src/components/navbar/config');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Prieto Blog',
-  tagline: 'Dinosaurs are cool',
+  title: 'Enrique Prieto',
+  tagline: 'Engenenheiro de Software',
   favicon: 'img/favicon.ico',
   url: 'https://prieto-bloc.tec.br',
   baseUrl: '/',
