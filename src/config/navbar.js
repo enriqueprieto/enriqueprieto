@@ -6,8 +6,8 @@ module.exports = {
     },
     items: [
         {
-            to: '/', 
-            label: 'Início', 
+            to: '/blog', 
+            label: 'Blog', 
             position: 'left'
         }
     ]
