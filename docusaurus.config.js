@@ -1,12 +1,8 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const NavbarConfig = require('./src/components/navbar/config');
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Enrique Prieto',
   tagline: 'Engenenheiro de Software',
@@ -32,16 +28,19 @@ const config = {
           showReadingTime: true
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.scss'),
+            require.resolve('./src/css/home.scss')
+          ],
         }
       }
     ],
   ],
 
+  plugins: ['docusaurus-plugin-sass'],
+
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: NavbarConfig,
       footer: {
