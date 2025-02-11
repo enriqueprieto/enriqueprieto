@@ -1,5 +1,6 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { themes } = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 const NavbarConfig = require('./src/components/navbar/config');
 
@@ -7,7 +8,7 @@ const config = {
   title: 'Enrique Prieto',
   tagline: 'Engenenheiro de Software',
   favicon: 'img/favicon.ico',
-  url: 'https://prieto-bloc.tec.br',
+  url: 'https://enriqueprieto.vercel.app',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
@@ -37,7 +38,16 @@ const config = {
     ],
   ],
 
-  plugins: ['docusaurus-plugin-sass'],
+  plugins: [
+    'docusaurus-plugin-sass',
+    [
+      'vercel-analytics',
+      {
+        debug: true,
+        mode: 'auto',
+      },
+    ],
+  ],
 
   themeConfig:
     ({
@@ -49,9 +59,6 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Este site foi criado utilizando Docusaurus.`,
       },
       blog: {
-        sidebar: {
-          hideable: true
-        }
       },
       prism: {
         theme: lightCodeTheme,
